@@ -1,0 +1,91 @@
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 3rem;
+
+	}
+
+	.progress__orb {
+		position: relative;
+		display: inline-block;
+		min-width: 120px;
+		height: 120px;
+		background-color: white;
+		border-radius: 100%;
+		overflow: hidden;
+		border: 2px solid rgba(0, 0, 0, 0.658);
+		/* box-shadow: 0 0 5px rgba(0,0,0,0.3), inset 0 0 20px rgba(0,0,0,1);	 */
+		margin-left: 2rem;
+	}
+		.progress__orb__html {
+			background-color: rgb(245, 243, 161);
+		}
+		.progress__orb__css {
+			background-color: rgb(121, 183, 224);
+		}
+		.progress__orb__js {
+			background-color: rgb(146, 147, 224);
+		}
+		.progress__orb__jquery {
+			background-color: rgb(169, 236, 130);
+		}
+		.progress__orb__projects {
+			background-color: rgb(233, 123, 109);
+		}
+
+		.orb__fill {
+			width: 100%;
+			height: 50%;
+			position: absolute;
+			background-color: rgb(255, 255, 255);
+		}
+			.orb__fill__html {
+				height: 50%;
+			}
+			.orb__fill__css {
+				height: 70%;
+			}
+			.orb__fill__js {
+				height: 30%;
+			}
+			.orb__fill__jquery {
+				height: 90%;
+			}
+			.orb__fill__projects {
+				height: 10%;
+			}
+
+		.orb__shadow {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset 0 0 30px #525252bb;	
+		}
+			
+		.orb__percent {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 1.8rem;
+			font-weight: 500;
+		}
+
+		.orb__text {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 1.5rem;
+		}
+
+		.orb__subtext {
+			position: absolute;
+			left: 50%;
+			top: 70%;
+			transform: translate(-50%, -50%);
+			font-size: .8rem;
+		}

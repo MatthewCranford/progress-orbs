@@ -50,6 +50,14 @@
 			border: 6px solid rgb(65, 65, 65);
 		}
 
+		.progress__orb--disable {
+			background-color: grey;
+		}
+		.progress__orb--shrink {
+			min-width: 80px;
+		height: 80px;
+		}
+
 		.progress__orb-fill {
 			width: 100%;
 			height: 50%;
